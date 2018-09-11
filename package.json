@@ -1,0 +1,27 @@
+{
+  "name": "testing-express-database",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "mocha ./test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreyc/testing-express-database.git"
+  },
+  "author": "Corey Cleary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coreyc/testing-express-database/issues"
+  },
+  "homepage": "https://github.com/coreyc/testing-express-database#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
