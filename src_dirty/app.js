@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
 
-const { users } = require('./routes/users')
+const { report } = require('./routes/report')
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
